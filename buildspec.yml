@@ -54,6 +54,8 @@ phases:
 #    on-failure: ABORT | CONTINUE
     commands:
       - echo Hello, World!
+      - ls -la
+      - tree
 #    finally:
 #      - command
 #      - command
